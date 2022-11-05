@@ -26,6 +26,7 @@ export default function PortfolioContainer() {
     <div>
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <div>Icon Links container</div>
     </div>
   );
 }
