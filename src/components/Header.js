@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import NavBar from './NavBar';
+import Navigation from './Navigation';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Portfolio from './pages/Portfolio';
 
-export default function PortfolioContainer() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
     if (currentPage === 'About') {
@@ -24,9 +24,8 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <div>Icon Links container</div>
     </div>
   );
 }
