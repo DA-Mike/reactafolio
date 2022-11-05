@@ -1,12 +1,6 @@
 import './App.css';
-import About from './components/About';
+import PortfolioContainer from './components/PortfolioContainer';
 
-function App() {
-  return (
-    <div className="reactafolio-app">
-      <About />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
