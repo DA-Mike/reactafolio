@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactafolio/static/css/main.bc0a9ded.chunk.css",
+    "main.css": "/reactafolio/static/css/main.90d925b6.chunk.css",
     "main.js": "/reactafolio/static/js/main.0a33c28e.chunk.js",
     "main.js.map": "/reactafolio/static/js/main.0a33c28e.chunk.js.map",
     "runtime-main.js": "/reactafolio/static/js/runtime-main.a35e5d42.js",
@@ -10,14 +10,14 @@
     "static/js/2.fb0ef63b.chunk.js.map": "/reactafolio/static/js/2.fb0ef63b.chunk.js.map",
     "index.html": "/reactafolio/index.html",
     "static/css/2.42d51ddf.chunk.css.map": "/reactafolio/static/css/2.42d51ddf.chunk.css.map",
-    "static/css/main.bc0a9ded.chunk.css.map": "/reactafolio/static/css/main.bc0a9ded.chunk.css.map",
+    "static/css/main.90d925b6.chunk.css.map": "/reactafolio/static/css/main.90d925b6.chunk.css.map",
     "static/js/2.fb0ef63b.chunk.js.LICENSE.txt": "/reactafolio/static/js/2.fb0ef63b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a35e5d42.js",
     "static/css/2.42d51ddf.chunk.css",
     "static/js/2.fb0ef63b.chunk.js",
-    "static/css/main.bc0a9ded.chunk.css",
+    "static/css/main.90d925b6.chunk.css",
     "static/js/main.0a33c28e.chunk.js"
   ]
 }
