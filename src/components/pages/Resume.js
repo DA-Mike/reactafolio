@@ -6,7 +6,7 @@ function Resume() {
         <div>
             <div className='page-container'>
                 <h1>My Resume</h1>
-                <a href="../../../assets/resume.doc"><div>Click here to download my resume</div></a>
+                <a href="../../../assets/resume.doc" download><div>Click here to download my resume</div></a>
                 <div><h3>Front End Proficiencies</h3>
                     <ul>
                         <li>HTML</li>

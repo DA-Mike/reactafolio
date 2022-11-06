@@ -1,18 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/pages.css';
 
-// function Contact() {
-//     return (
-//         <div>
-//             <div className='page-container'>
-//                 <h1>Contact Me</h1>
-//                 <div>Placeholder</div>
-//                 <div>Test Test Test</div>
-//             </div>
-//         </div>
-//     );
-// };
-
 const FORM_ENDPOINT = ""; // TODO - fill on the later step
 
 const Contact = () => {
