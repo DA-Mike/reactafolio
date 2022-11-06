@@ -1,0 +1,12 @@
+.page-container {
+    margin: 10rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-container {
+    margin: 1rem;
+}

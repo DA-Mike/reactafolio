@@ -1,11 +1,14 @@
 import React from 'react';
+import '../styles/pages.css';
 
 function Resume() {
     return (
         <div>
-            <h1>My Resume</h1>
-            <div>Placeholder</div>
-            <div>Test Test Test</div>
+            <div className='page-container'>
+                <h1>My Resume</h1>
+                <div>Placeholder</div>
+                <div>Test Test Test</div>
+            </div>
         </div>
     );
 };

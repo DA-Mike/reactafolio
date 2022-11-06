@@ -24,8 +24,10 @@ export default function Header() {
 
   return (
     <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      <div className='nav-container'>
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
+      </div>
     </div>
   );
 }
