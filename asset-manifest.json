@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactafolio/static/css/main.7d27494f.chunk.css",
-    "main.js": "/reactafolio/static/js/main.e4122c17.chunk.js",
-    "main.js.map": "/reactafolio/static/js/main.e4122c17.chunk.js.map",
+    "main.js": "/reactafolio/static/js/main.4cbdad11.chunk.js",
+    "main.js.map": "/reactafolio/static/js/main.4cbdad11.chunk.js.map",
     "runtime-main.js": "/reactafolio/static/js/runtime-main.a35e5d42.js",
     "runtime-main.js.map": "/reactafolio/static/js/runtime-main.a35e5d42.js.map",
     "static/css/2.42d51ddf.chunk.css": "/reactafolio/static/css/2.42d51ddf.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.42d51ddf.chunk.css",
     "static/js/2.fb0ef63b.chunk.js",
     "static/css/main.7d27494f.chunk.css",
-    "static/js/main.e4122c17.chunk.js"
+    "static/js/main.4cbdad11.chunk.js"
   ]
 }
