@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/reactafolio/static/css/main.7d27494f.chunk.css",
-    "main.js": "/reactafolio/static/js/main.c16d8575.chunk.js",
-    "main.js.map": "/reactafolio/static/js/main.c16d8575.chunk.js.map",
+    "main.js": "/reactafolio/static/js/main.335d2332.chunk.js",
+    "main.js.map": "/reactafolio/static/js/main.335d2332.chunk.js.map",
     "runtime-main.js": "/reactafolio/static/js/runtime-main.a35e5d42.js",
     "runtime-main.js.map": "/reactafolio/static/js/runtime-main.a35e5d42.js.map",
     "static/css/2.42d51ddf.chunk.css": "/reactafolio/static/css/2.42d51ddf.chunk.css",
-    "static/js/2.f87f92c7.chunk.js": "/reactafolio/static/js/2.f87f92c7.chunk.js",
-    "static/js/2.f87f92c7.chunk.js.map": "/reactafolio/static/js/2.f87f92c7.chunk.js.map",
+    "static/js/2.7215af36.chunk.js": "/reactafolio/static/js/2.7215af36.chunk.js",
+    "static/js/2.7215af36.chunk.js.map": "/reactafolio/static/js/2.7215af36.chunk.js.map",
     "index.html": "/reactafolio/index.html",
     "static/css/2.42d51ddf.chunk.css.map": "/reactafolio/static/css/2.42d51ddf.chunk.css.map",
     "static/css/main.7d27494f.chunk.css.map": "/reactafolio/static/css/main.7d27494f.chunk.css.map",
-    "static/js/2.f87f92c7.chunk.js.LICENSE.txt": "/reactafolio/static/js/2.f87f92c7.chunk.js.LICENSE.txt"
+    "static/js/2.7215af36.chunk.js.LICENSE.txt": "/reactafolio/static/js/2.7215af36.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a35e5d42.js",
     "static/css/2.42d51ddf.chunk.css",
-    "static/js/2.f87f92c7.chunk.js",
+    "static/js/2.7215af36.chunk.js",
     "static/css/main.7d27494f.chunk.css",
-    "static/js/main.c16d8575.chunk.js"
+    "static/js/main.335d2332.chunk.js"
   ]
 }
