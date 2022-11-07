@@ -4,7 +4,7 @@ import Project from '../Project';
 function Portfolio() {
     return (
         <div>
-            <div className='page-container'>
+            <div className=''>
                 <div className='row'>
                     <div className='col-md-3'></div>
                     <div className='project-container col-md-3'>

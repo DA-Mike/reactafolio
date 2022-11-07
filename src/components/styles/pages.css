@@ -3,7 +3,8 @@ h2 {
 }
 
 .page-container {
-    margin: 10rem;
+    margin-top: 10rem;
+    margin-left: 15%;
 }
 
 .contact-container {
@@ -23,3 +24,15 @@ h2 {
 .icon-container {
     margin: 1rem;
 }
+
+ @media (max-width: 768px) {
+
+    .page-container {
+        margin: 2rem;
+    }
+
+    .contact-container {
+        margin: 0;
+    }
+
+ }

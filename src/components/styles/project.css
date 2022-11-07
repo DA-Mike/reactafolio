@@ -5,3 +5,11 @@
 .project-card {
     padding: 1rem;
 }
+
+@media (max-width: 768px) {
+
+    .project-container {
+        width: 85%;
+    }
+
+}

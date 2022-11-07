@@ -7,7 +7,7 @@ function Resume() {
             <div className='page-container'>
                 <h1>My Resume</h1>
                 <a href="../../../assets/resume.doc" download><div>Click here to download my resume</div></a>
-                <div><h3>Front End Proficiencies</h3>
+                <div><h3>Front-End Proficiencies</h3>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -18,7 +18,7 @@ function Resume() {
                         <li>Angular</li>
                         <li>Bootstrap</li>
                     </ul>
-                    <h3>Back End Proficiencies</h3>
+                    <h3>Back-End Proficiencies</h3>
                     <ul>
                         <li>APIs</li>
                         <li>Node</li>

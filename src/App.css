@@ -1,7 +1,7 @@
 .footer{
   margin-top: 1rem;
   padding: 1rem;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -13,6 +13,18 @@
   margin-bottom: 5rem;
 }
 
-.nav-items {
-  
+.nav-ham {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+  .nav-ham {
+    display: flex;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
 }
