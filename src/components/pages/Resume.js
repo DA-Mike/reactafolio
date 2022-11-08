@@ -28,7 +28,7 @@ Back-End Proficiencies
     Java
     Spring Boot`];
 
-const downloadTxtFile = () => {
+const downloadDocFile = () => {
     const file = new Blob(resumeText, {type: 'text/plain'});
 
     const element = document.createElement("a");
@@ -44,7 +44,7 @@ function Resume() {
         <div>
             <div className='page-container'>
                 <h1>My Resume</h1>
-                <button className="btn btn-primary" id="downloadBtn"  onClick={downloadTxtFile} value="download">Download Resume</button>
+                <button className="btn btn-primary" id="downloadBtn"  onClick={downloadDocFile} value="download">Download Resume</button>
                 <div><h3>Front-End Proficiencies</h3>
                     <ul>
                         <li>HTML</li>
