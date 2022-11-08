@@ -21,7 +21,7 @@ Simply clone repo.
 
 ## Usage
 
-[]("/assets/20-react-homework-demo-01.gif")
+![Demo.](./assets/20-react-homework-demo-01.gif)
 
 ## Contributing
 ### How to Contribute:
