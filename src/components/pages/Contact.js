@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/pages.css';
 
-const FORM_ENDPOINT = ""; // TODO - fill later
+// const FORM_ENDPOINT = ""; // TODO - fill later
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -27,10 +27,11 @@ const Contact = () => {
         <div className='contact-container' bg='light'>
             <div className='form-container card col-md-4 bg-light'>
                 <form
-                action={FORM_ENDPOINT}
+                // action={FORM_ENDPOINT}
                 onSubmit={handleSubmit}
-                method="POST"
-                target="_blank"
+                // method="POST"
+                method="GET"
+                target="/" 
                 >
                 <h2>Contact Me</h2>
                 <div className="mb-3 pt-0">
