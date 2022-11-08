@@ -21,6 +21,8 @@ Simply clone repo.
 
 ## Usage
 ![Link to deployed site.](https://da-mike.github.io/reactafolio/)
+
+
 ![Demo.](./assets/20-react-homework-demo-01.gif)
 
 ## Contributing
