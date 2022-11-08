@@ -20,6 +20,10 @@
         width: 85%;
     }
 
+    .project-card {
+        margin-left: 17%;
+    }
+    
     .repo-title {
         height: 3rem;
     }
