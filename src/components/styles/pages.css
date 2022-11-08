@@ -7,10 +7,28 @@ h2 {
     margin-left: 15%;
 }
 
+.about {
+    margin: 1rem;
+}
+
+.aboutIcon {
+    margin: 1rem;
+}
+
+.aboutText {
+    margin: 1rem;
+}
+
 .contact-container {
     margin: 5rem;
     display: flex;
     justify-content: center;
+}
+
+.thanks {
+    display: block;
+    margin-left: 45%;
+    margin-top: 10%;
 }
 
 .form-container {
@@ -33,6 +51,11 @@ h2 {
 
     .contact-container {
         margin: 0;
+    }
+
+    .thanks {
+        margin-left: 35%;
+    
     }
 
  }

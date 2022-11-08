@@ -1,3 +1,7 @@
+img, svg {
+  scale: 200%;
+}
+
 .footer{
   margin-top: 1rem;
   padding: 1rem;

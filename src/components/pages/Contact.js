@@ -14,8 +14,10 @@ const Contact = () => {
   if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
+        <div className="thanks">
+          <div className="text-2xl">Thank you!</div>
+          <div className="text-md">We'll be in touch soon.</div>
+        </div>
       </>
     );
   }
@@ -59,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3 pt-0">
                     <button
-                    className="bg-primary text-white active:bg-info font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    className=" btn btn-primary"
                     type="submit"
                     >
                     Send a message
