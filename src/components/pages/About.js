@@ -8,7 +8,7 @@ function About() {
             <div className='page-container'>
                 <h1 className='about'>About Me</h1>
                 <div className='aboutIcon'><CgProfile /></div>
-                <div className='aboutText'>This page talks about me and how special I am.</div>
+                <div className='aboutText'>Hello! My name is Mike Rugh, I'm a full stack engineer who was an energy market specialist in a past life.</div>
             </div>
         </div>
     );
