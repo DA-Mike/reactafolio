@@ -14,7 +14,7 @@ function Portfolio() {
                 <div className='row'>
                     <div className='col-md-3'></div>
                     <div className='project-container col-md-3'>
-                        <Project  title='Lumivent' description='Team Project' depUrl='https://lumivent.herokuapp.com/' gitHub='https://github.com/DA-Mike/Group-Event-Planner'/>
+                        <Project  title='Lumivent' description='Team Project' depUrl='https://lumivent-planner.herokuapp.com/' gitHub='https://github.com/DA-Mike/Group-Event-Planner'/>
                     </div>
                 
                     <div className='project-container col-md-3'>
