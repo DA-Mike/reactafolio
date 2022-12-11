@@ -111,6 +111,22 @@ h2 {
     margin: 1rem;
 }
 
+.profile-pic {
+    border-radius: 50%;
+    margin: 2rem;
+    margin-left: 5rem;
+}
+
+.navbar-toggler {
+    color: var(--vivid-auburn);
+}
+
+.navbar-toggler.collapsed {
+    color: var(--vivid-auburn);
+}
+
+
+
  @media (max-width: 768px) {
 
     .page-container {
@@ -123,7 +139,6 @@ h2 {
 
     .thanks {
         margin-left: 35%;
-    
     }
 
  }
