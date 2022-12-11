@@ -33,7 +33,7 @@ const Contact = () => {
                 method="GET"
                 target="/" 
                 >
-                <h2>Contact Me</h2>
+                <h2 id='contact-title'>Contact Me</h2>
                 <div className="mb-3 pt-0">
                     <input
                     type="text"
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div className="mb-3 pt-0">
                     <button
-                    className=" btn btn-primary"
+                    className=" btn contact-btn"
                     type="submit"
                     >
                     Send a message

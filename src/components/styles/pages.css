@@ -1,3 +1,44 @@
+:root {
+  --vivid-auburn: rgb(145,31,31);
+  --brown-chocolate: rgb(77,14,51);
+  --yankees-blue: rgb(39,37,66);
+  --old-lace: rgb(249,246,232);
+  --columbia-blue: rgb(183,232,213);
+  --pearl-aqua: rgb(130,200,193);
+}
+
+@keyframes neon-box-shadow {
+	0% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+	50% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 55px var(--pearl-aqua);}
+	100% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+}
+
+.gradient-text {
+    background-color: var(--vivid-auburn);
+    background-image: linear-gradient(var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    /* animation: neon-text-shadow 3s ease-in-out infinite; */
+}
+
 h2 {
     margin-bottom: 2rem;
 }
@@ -17,12 +58,33 @@ h2 {
 
 .aboutText {
     margin: 1rem;
+    color: var(--brown-chocolate);
+    font-size: larger;
+}
+
+.contact-btn {
+    background-color: var(--pearl-aqua);
+    color: var(--yankees-blue);
 }
 
 .contact-container {
     margin: 5rem;
     display: flex;
     justify-content: center;
+}
+
+.dark-txt {
+    color: var(--brown-chocolate);
+}
+
+.download-btn {
+    background-color: var(--yankees-blue);
+    color: var(--pearl-aqua);
+}
+
+.download-btn:hover {
+    background-color: var(--vivid-auburn);
+    color: var(--old-lace);
 }
 
 .thanks {
@@ -37,6 +99,12 @@ h2 {
     margin-top: 3rem;
     padding: 3rem;
     text-align: center;
+    background-image: linear-gradient(var(--pearl-aqua), var(--columbia-blue), var(--old-lace), var(--yankees-blue), var(--brown-chocolate), var(--vivid-auburn));
+    animation: neon-box-shadow 3s ease-in-out infinite;
+}
+
+#contact-title {
+    color: var(--vivid-auburn);
 }
 
 .icon-container {

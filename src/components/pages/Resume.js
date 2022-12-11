@@ -43,10 +43,10 @@ function Resume() {
     return (
         <div>
             <div className='page-container'>
-                <h1>My Resume</h1>
-                <button className="btn btn-primary" id="downloadBtn"  onClick={downloadDocFile} value="download">Download Resume</button>
-                <div><h3>Front-End Proficiencies</h3>
-                    <ul>
+                <h1 id='resume-title' className='gradient-text'>My Resume</h1>
+                <button className="btn download-btn" id="downloadBtn"  onClick={downloadDocFile} value="download">Download Resume</button>
+                <div><h3 className='dark-txt'>Front-End Proficiencies</h3>
+                    <ul className='dark-txt'>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>

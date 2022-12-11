@@ -8,7 +8,7 @@ export default function Project({ title, description, depUrl, gitHub }) {
         <div>
             <div className='card project-card' bg='primary'>
                 <div className="row repo-title">
-                    <a class="col" href={depUrl}><h4>{title}</h4></a><p class="col"><a href={gitHub}><BsGithub /></a></p>
+                    <a class="col" href={depUrl}><h4>{title}</h4></a><p class="col"><a class='gradient-text' href={gitHub}><BsGithub /></a></p>
                 </div>
                 <h6>{description}</h6>
             </div>

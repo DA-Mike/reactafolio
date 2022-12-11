@@ -1,3 +1,33 @@
+:root {
+  --vivid-auburn: rgb(145,31,31);
+  --brown-chocolate: rgb(77,14,51);
+  --yankees-blue: rgb(39,37,66);
+  --old-lace: rgb(249,246,232);
+  --columbia-blue: rgb(183,232,213);
+  --pearl-aqua: rgb(130,200,193);
+}
+
+@keyframes neon-box-shadow {
+	0% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+	50% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 55px var(--pearl-aqua);}
+	100% {box-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+}
+
 .project-container {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -6,12 +36,38 @@
 
 .project-card {
     padding: 1rem;
+    background-image: linear-gradient(var(--pearl-aqua), var(--columbia-blue), var(--old-lace), var(--yankees-blue), var(--brown-chocolate), var(--vivid-auburn));
+}
+
+.project-card:hover {
+    animation: neon-box-shadow 3s ease-in-out infinite;
 }
 
 .repo-title {
   margin-bottom: 3rem;
   padding-top: 1rem;
   height: 5rem;
+  text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--vivid-auburn);
+}
+
+a:hover {
+  color: var(--brown-chocolate);
+}
+
+.gradient-text {
+    background-color: var(--vivid-auburn);
+    background-image: linear-gradient(var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    /* animation: neon-text-shadow 3s ease-in-out infinite; */
 }
 
 @media (max-width: 768px) {

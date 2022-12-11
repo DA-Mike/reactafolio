@@ -23,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
 
   return (
     <>
-      <Navbar bg="primary" variant="dark" className="nav-items" style={hide} id="nav-full">
+      <Navbar variant="dark" className="nav-items" style={hide} id="nav-full">
         <Container className="nav-items">
           <Navbar.Brand href="#about" onClick={() => handlePageChange('About')}
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>Mike Rugh</Navbar.Brand>
@@ -40,7 +40,7 @@ function Navigation({ currentPage, handlePageChange }) {
         </Container>
       </Navbar>
           <div className="container nav-ham" style={show}>
-          <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+          <nav className="navbar navbar-expand-lg navbar-dark">
               <div className="container-fluid">
                 <Navbar.Brand href="#about" onClick={() => handlePageChange('About')}
                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>Mike Rugh</Navbar.Brand>

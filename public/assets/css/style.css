@@ -12,16 +12,39 @@
   --old-lace: rgb(249,246,232);
   --columbia-blue: rgb(183,232,213);
   --pearl-aqua: rgb(130,200,193);
+  --hot-blue: rgb(0, 225, 255);
+}
+
+@keyframes neon-text-shadow {
+	0% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+	50% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 55px var(--pearl-aqua);}
+	100% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
 }
 
 .gradient-text {
-    background-color: #f3ec78;
-    background-image: linear-gradient(#f3ec78, #af4261);
+    background-color: var(--vivid-auburn);
+    background-image: linear-gradient(var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue));
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
+    /* animation: neon-text-shadow 3s ease-in-out infinite; */
 }
 
 body {
@@ -44,6 +67,7 @@ img, svg {
 
 .navbar-brand {
   color: var(--columbia-blue);
+  animation: neon-text-shadow 3s ease-in-out infinite; 
 }
 
 .nav-link {
