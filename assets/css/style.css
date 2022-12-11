@@ -13,6 +13,7 @@
   --columbia-blue: rgb(183,232,213);
   --pearl-aqua: rgb(130,200,193);
   --hot-blue: rgb(0, 225, 255);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28145, 31, 31, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 @keyframes neon-text-shadow {
@@ -111,17 +112,38 @@ img, svg {
     display: none;
 }
 
+.navbar-toggler {
+  color: var(--vivid-auburn);
+}
+
+.navbar-toggler-icon {
+  color: var(--vivid-auburn);
+  background-image: var(--bs-navbar-toggler-icon-bg);
+}
+
 @media (max-width: 768px) {
 
   .nav-ham {
     display: block;
     margin: 0;
     padding: 0;
-    color: white;
+    color: var(--vivid-auburn);
   }
 
   .nav-items {
     display: none;
   }
+
+  .nav-link {
+    color: var(--vivid-auburn);
+  }
+
+  /* button {
+    color: var(--vivid-auburn);
+  }
+
+  button:focus:not(:focus-visible) {
+    color: var(--vivid-auburn);
+  } */
 
 }
