@@ -1,0 +1,127 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker'); */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* @font-face {
+  font-family: 'Permanent Market', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+} */
+:root {
+  --vivid-auburn: rgb(145,31,31);
+  --brown-chocolate: rgb(77,14,51);
+  --yankees-blue: rgb(39,37,66);
+  --old-lace: rgb(249,246,232);
+  --columbia-blue: rgb(183,232,213);
+  --pearl-aqua: rgb(130,200,193);
+  --hot-blue: rgb(0, 225, 255);
+}
+
+@keyframes neon-text-shadow {
+	0% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+	50% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 55px var(--pearl-aqua);}
+	100% {text-shadow:
+        -1px -1px 0 var(--columbia-blue),
+        1px -1px 0 var(--columbia-blue),
+        -1px 1px 0 var(--columbia-blue),
+        1px 1px 0 var(--columbia-blue),
+        0 0 15px var(--pearl-aqua);}
+}
+
+.gradient-text {
+    background-color: var(--vivid-auburn);
+    background-image: linear-gradient(var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    /* animation: neon-text-shadow 3s ease-in-out infinite; */
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  /* background-image: linear-gradient(rgb(100,20,44),var(--brown-chocolate),  var(--vivid-auburn), var(--pearl-aqua), var(--columbia-blue), var(--old-lace)); */
+  background-color: var(--yankees-blue);
+  /* margin-bottom: -2rem; */
+}
+
+img, svg {
+  scale: 200%;
+  /* color: var(--columbia-blue); */
+}
+
+.nav-items {
+  background-color: var(--yankees-blue);
+  /* background-image: linear-gradient(var(--old-lace), var(--columbia-blue), var(--pearl-aqua), var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue)); */
+  color: var(--columbia-blue);
+}
+
+.navbar-brand {
+  color: var(--columbia-blue);
+  animation: neon-text-shadow 3s ease-in-out infinite; 
+}
+
+.nav-link {
+  color: var(--columbia-blue);
+}
+
+.nav-link.active {
+  color: var(--pearl-aqua);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--pearl-aqua);
+}
+
+.page-container {
+  height: 50rem;
+}
+
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--yankees-blue);
+  color: var(--columbia-blue);
+}
+
+.nav-container {
+  /* margin-bottom: 5rem; */
+  /* background-color: var(--yankees-blue); */
+  background-image: linear-gradient(var(--old-lace), var(--columbia-blue), var(--pearl-aqua), var(--vivid-auburn), var(--brown-chocolate), var(--yankees-blue));
+  /* background-image: linear-gradient(var(--yankees-blue), var(--brown-chocolate)); */
+  color: var(--columbia-blue);
+}
+
+.nav-ham {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+  .nav-ham {
+    display: block;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+}
