@@ -15,7 +15,6 @@ function Portfolio() {
         //     },
         // });
         const content = await data.json();
-        console.log('content:', content);
 
         for (let i = 0; i < content.length; i++) {
             repoArr.push(content[i]);
@@ -26,12 +25,6 @@ function Portfolio() {
         console.log('repoArr:', repoArr);
     };
     getRepos();
-
-    // repoArr.sort((a, b) => a.homepage - b.homepage);
-    // await repoArr.sort((a, b) => (a.homepage > b.homepage ? 1 : -1));
-
-    // console.log('repoArr:', repoArr.sort((a, b) => ((a.homepage ? 1 : -1) > (b.homepage ? 1 : -1) ? 1 : -1)));
-    // console.log('repoArr:', repoArr);
 
     return (
         <div>

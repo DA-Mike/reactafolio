@@ -52,7 +52,7 @@ body {
   font-family: 'Permanent Marker', cursive;
   /* background-image: linear-gradient(rgb(100,20,44),var(--brown-chocolate),  var(--vivid-auburn), var(--pearl-aqua), var(--columbia-blue), var(--old-lace)); */
   background-color: var(--yankees-blue);
-  /* margin-bottom: -2rem; */
+  margin-bottom: 5rem;
 }
 
 img, svg {
